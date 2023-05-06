@@ -11,8 +11,10 @@
 
 ## Welcome to Taiko :drum:
 
-Taiko is a fully decentralized, Ethereum-equivalent ZK-Rollup. 
+A decentralized, Ethereum-equivalent ZK-Rollup. 
 
-- **Read the docs**: [taiko.xyz](https://taiko.xyz)
+- **[📚 Read the docs](https://taiko.xyz)**
 
-- **Contribute**: [CONTRIBUTING.md](https://github.com/taikoxyz/taiko-mono/blob/main/CONTRIBUTING.md)
+- **[🛠️ Contribute to Taiko](https://github.com/taikoxyz/taiko-mono/contribute)**
+
+- **[🏡 Join the community](https://discord.gg/taikoxyz)**
