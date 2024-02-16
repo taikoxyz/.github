@@ -13,7 +13,7 @@
 
 A decentralized, Ethereum-equivalent ZK-Rollup. 
 
-- **[📚 Read the docs](https://taiko.xyz)**
+- **[📚 Read the docs](https://docs.taiko.xyz/start-here/getting-started)**
 
 - **[🛠️ Contribute to Taiko](https://github.com/taikoxyz/taiko-mono/contribute)**
 
