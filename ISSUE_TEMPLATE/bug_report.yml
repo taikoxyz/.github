@@ -1,0 +1,30 @@
+name: Bug report 🐛
+description: Report a bug
+labels: ["category.bug", "status.needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before submitting, please check if an existing issue already exists. Thanks for taking the time to improve Taiko!
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A concise description of the problem and what you expected to happen.
+      value: Description of the bug here.
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Steps to reproduce the bug, a numbered list could be good.
+      value: Steps to reproduce here.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Spam policy
+      description: By submitting this issue, you understand that SPAM issues will be closed and REPORTED to GitHub, which can close your account.
+      options:
+        - label: I verify that this issue is NOT SPAM and understand SPAM issues will be closed and reported to GitHub, resulting in ACCOUNT TERMINATION.
+          required: true
