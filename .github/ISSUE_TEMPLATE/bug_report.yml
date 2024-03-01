@@ -3,7 +3,6 @@ description: Create a report to help us improve our codebase.
 labels: ["category.bug", "status.needs-triage"]
 body:
   - type: markdown
-    id: intro
     attributes:
       value: |
       # Welcome to Taiko
