@@ -24,6 +24,14 @@ body:
         - label: Yes, I've searched for similar issues on [GitHub](https://github.com/taikoxyz/) and didn't find any.
           required: true
 
+  - type: checkboxes
+    id: prerequisites-repo
+    attributes:
+      label: Create the request for the correct repository
+      options:
+        - label: I create this request for the correct [repository](https://github.com/orgs/taikoxyz/repositories?type=public) and understand that if not, it may be closed without any comments.
+          required: true
+
   - type: textarea
     id: what_did_you_do
     attributes:
