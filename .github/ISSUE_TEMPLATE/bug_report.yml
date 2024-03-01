@@ -3,7 +3,7 @@ description: Create a report to help us improve our codebase.
 labels: ["category.bug", "status.needs-triage"]
 body:
   - type: checkboxes
-    id: terms
+    id: prerequisites
     attributes:
       label: Welcome to Taiko!
       description: |
@@ -19,7 +19,7 @@ body:
           required: true
 
   - type: textarea
-    id: what
+    id: what_did_you_do
     attributes:
       label: What did you do?
       description: |
@@ -36,7 +36,7 @@ body:
       required: true
 
   - type: textarea
-    id: result
+    id: what_did_you_see
     attributes:
       label: What did you see instead? If it was an error, please paste the error message or provide a screenshot.
       placeholder: What did you see instead?
