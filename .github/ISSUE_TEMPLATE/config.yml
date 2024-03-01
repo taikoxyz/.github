@@ -2,3 +2,6 @@ contact_links:
     - name: General Community support
       url: https://discord.gg/taikoxyz
       about: This issue tracker is only for feature requests and bug reports. If you have general questions, e.g. problems with campaings, the community support is available on Discord!
+    - name: New Ecosystem partners
+      url: https://github.com/taikoxyz/website/issues/new?assignees=&labels=category.enhancement%2Cstatus.needs-triage&projects=&template=add_project.yml
+      about: If you want to add your project to the ecosystem, please open a request.
