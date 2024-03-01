@@ -2,7 +2,7 @@ name: Feature request 💡
 description: Request a feature
 labels: ["category.enhancement", "status.needs-triage"]
 body:
-   - type: markdown
+ - type: markdown
     attributes:
       value: |
         ## Welcome to Taiko :drum:
