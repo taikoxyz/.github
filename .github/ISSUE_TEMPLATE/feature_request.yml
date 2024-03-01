@@ -15,7 +15,7 @@ body:
       options:
         - label: Yes, I've searched for similar issues on [GitHub](https://github.com/taikoxyz/) and didn't find any.
           required: true
-      label: Do not request to integrate with other projects unless you are a representative of them. Then you should use the ecosystem application
+      label: Do not request to integrate with other projects unless you are a representative of them.
       options:
         - label: I confirm, that I do not request he integration of a third party project.
 
