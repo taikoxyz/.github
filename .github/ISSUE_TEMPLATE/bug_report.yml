@@ -8,7 +8,7 @@ body:
         ## Welcome to Taiko :drum:
           <br>
         The issue tracker is for reporting bugs and feature requests for our dApps and client software only.
-        If you have issues with campaigns or other non-technical issues, please reach out on our [Discord](https://discord.gg/taikoxyz)
+        If you have issues with campaigns or other non-technical issues, please reach out on our [Discord] (https://discord.gg/taikoxyz/)
           
         All new/updated issues are triaged regularly by the maintainers.
           <br>
@@ -21,7 +21,7 @@ body:
     attributes:
       label: Please make sure your report is unique and has not been reported previously
       options:
-        - label: Yes, I've searched for similar issues on [GitHub](https://github.com/taikoxyz) and didn't find any.
+        - label: Yes, I've searched for similar issues on [GitHub](https://github.com/taikoxyz/) and didn't find any.
           required: true
 
   - type: textarea
