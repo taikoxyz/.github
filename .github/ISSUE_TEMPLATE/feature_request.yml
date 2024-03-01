@@ -23,7 +23,15 @@ body:
     id: description
     attributes:
       label: Describe the feature request
-      description: A concise description of what the problem and proposed solution is.
+      description: |
+        How to write a good issue?
+
+        - Respect the issue template as much as possible.
+        - The title should be short and descriptive.
+        - Explain the conditions which led you to report this issue: the context.
+        - The context should lead to something, an idea or a problem that you’re facing.
+        - Remain clear and concise.
+        - Format your messages to help the reader focus on what matters and understand the structure of your message, use [Markdown syntax](https://help.github.com/articles/github-flavored-markdown)
       value: Description of the feature request here.
     validations:
       required: true
