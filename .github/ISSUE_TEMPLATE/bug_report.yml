@@ -2,18 +2,23 @@ name: Bug report 🐛
 description: Create a report to help us improve our codebase.
 labels: ["category.bug", "status.needs-triage"]
 body:
-  - type: checkboxes
-    id: prerequisites
+  - type: markdown
+    id: intro
     attributes:
-      label: Welcome to Taiko!
-      description: |
+      value: |
+      # Welcome to Taiko
         The issue tracker is for reporting bugs and feature requests for our dApps and client software only.
         If you have issues with campaigns or other non-technical issues, please reach out on our [Discord](https://discord.gg/taikoxyz)
 
         All new/updated issues are triaged regularly by the maintainers.
 
-        DO NOT FILE ISSUES FOR GENERAL SUPPORT QUESTIONS. Those will be closed without any comment and may be reported to GitHub as spam.
-        
+        **DO NOT FILE ISSUES FOR GENERAL SUPPORT QUESTIONS.**
+        Those will be closed without any comment and may be reported to GitHub as spam.
+
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Please make sure your report is unique and has not been reported previously
       options:
         - label: Yes, I've searched for similar issues on [GitHub](https://github.com/taikoxyz) and didn't find any.
           required: true
