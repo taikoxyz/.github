@@ -6,6 +6,19 @@ body:
     attributes:
       value: |
         Before submitting, please check if an existing issue already exists. Thanks for taking the time to improve Taiko!
+  
+            
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Please make sure your feature request is unique and has not been requested previously
+      options:
+        - label: Yes, I've searched for similar issues on [GitHub](https://github.com/taikoxyz/) and didn't find any.
+          required: true
+      label: Do not request to integrate with other projects unless you are a representative of them. Then you should use the ecosystem application
+      options:
+        - label: I confirm, that I do not request he integration of a third party project.
+
   - type: textarea
     id: description
     attributes:
