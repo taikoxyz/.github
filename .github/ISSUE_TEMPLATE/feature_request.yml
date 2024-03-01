@@ -4,10 +4,10 @@ labels: ["category.enhancement", "status.needs-triage"]
 body:
   - type: markdown
     attributes:
-    value: |
-      ## Welcome to Taiko :drum:
-        Thanks for taking the time to improve Taiko!
-        Here you can request additional features you'd like to see. 
+      value: |
+        ## Welcome to Taiko :drum:
+          Thanks for taking the time to improve Taiko!
+          Here you can request additional features you'd like to see. 
             
   - type: checkboxes
     id: prerequisites-unique
