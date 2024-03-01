@@ -19,6 +19,7 @@ body:
           required: true
 
   - type: textarea
+    id: what
     attributes:
       label: What did you do?
       description: |
@@ -35,6 +36,7 @@ body:
       required: true
 
   - type: textarea
+    id: result
     attributes:
       label: What did you see instead? If it was an error, please paste the error message or provide a screenshot.
       placeholder: What did you see instead?
