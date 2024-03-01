@@ -9,7 +9,7 @@ body:
           Here you can request additional features you'd like to see. 
             
   - type: checkboxes
-    id: prerequisites
+    id: prerequisites-unique
     attributes:
       label: Please make sure your feature request is unique and has not been requested previously
       options:
@@ -18,6 +18,20 @@ body:
       label: Create the request for the correct repository
       options:
         - label: I create this request for the correct [repository](https://github.com/orgs/taikoxyz/repositories?type=public) and understand that if not, it may be closed without any comments.
+      label: Do not request to integrate with other projects unless you are a representative of them.
+      options:
+        - label: I confirm, that I do not request he integration of a third party project.
+
+  - type: checkboxes
+    id: prerequisites-repo
+    attributes:
+      label: Create the request for the correct repository
+      options:
+        - label: I create this request for the correct [repository](https://github.com/orgs/taikoxyz/repositories?type=public) and understand that if not, it may be closed without any comments.
+
+  - type: checkboxes
+    id: prerequisites-third-party
+    attributes:
       label: Do not request to integrate with other projects unless you are a representative of them.
       options:
         - label: I confirm, that I do not request he integration of a third party project.
