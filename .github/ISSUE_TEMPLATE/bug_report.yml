@@ -6,17 +6,17 @@ body:
     attributes:
       value: |
         ## Welcome to Taiko :drum:
-        <br>
+          
         The issue tracker is for reporting bugs and feature requests for our dApps and client software only.
         If you have issues with campaigns or other non-technical issues, please reach out on our [Discord](https://discord.gg/taikoxyz)
-        <br>
+          
         All new/updated issues are triaged regularly by the maintainers.
-        <br>
-        <br>
+          
+          
         ### DO NOT FILE ISSUES FOR GENERAL SUPPORT QUESTIONS.
         Those will be closed without any comment and may be reported to GitHub as spam.
-        <br>
-        <br>
+         
+          
   - type: checkboxes
     id: prerequisites
     attributes:
