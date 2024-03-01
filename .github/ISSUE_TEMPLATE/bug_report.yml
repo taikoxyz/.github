@@ -1,25 +1,46 @@
 name: Bug report 🐛
-description: Report a bug
+description: Create a report to help us improve our codebase.
 labels: ["category.bug", "status.needs-triage"]
 body:
-  - type: markdown
+  - type: checkboxes
+    id: terms
     attributes:
-      value: |
-        Before submitting, please check if an existing issue already exists. Thanks for taking the time to improve Taiko!
+      label: Welcome to Taiko!
+      description: |
+        The issue tracker is for reporting bugs and feature requests for our dApps and client software only.
+        If you have issues with campaigns or other non-technical issues, please reach out on our [Discord](https://discord.gg/taikoxyz)
+
+        All new/updated issues are triaged regularly by the maintainers.
+
+        DO NOT FILE ISSUES FOR GENERAL SUPPORT QUESTIONS. Those will be closed without any comment and may be reported to GitHub as spam.
+        
+      options:
+        - label: Yes, I've searched for similar issues on [GitHub](https://github.com/taikoxyz) and didn't find any.
+          required: true
+
   - type: textarea
-    id: description
     attributes:
-      label: Describe the bug
-      description: A concise description of the problem and what you expected to happen.
-      value: Description of the bug here.
+      label: What did you do?
+      description: |
+        How to write a good bug report?
+
+        - Respect the issue template as much as possible.
+        - The title should be short and descriptive.
+        - Explain the conditions which led you to report this issue: the context.
+        - The context should lead to something, an idea or a problem that you’re facing.
+        - Remain clear and concise.
+        - Format your messages to help the reader focus on what matters and understand the structure of your message, use [Markdown syntax](https://help.github.com/articles/github-flavored-markdown)
+      placeholder: What did you do?
     validations:
       required: true
+
   - type: textarea
-    id: steps-to-reproduce
     attributes:
-      label: Steps to reproduce
-      description: Steps to reproduce the bug, a numbered list could be good.
-      value: Steps to reproduce here.
+      label: What did you see instead? If it was an error, please paste the error message or provide a screenshot.
+      placeholder: What did you see instead?
+    validations:
+      required: true
+      
   - type: checkboxes
     id: terms
     attributes:
