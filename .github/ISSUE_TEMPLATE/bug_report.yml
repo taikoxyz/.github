@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-      # Welcome to Taiko
+        **Welcome to Taiko**
         The issue tracker is for reporting bugs and feature requests for our dApps and client software only.
         If you have issues with campaigns or other non-technical issues, please reach out on our [Discord](https://discord.gg/taikoxyz)
 
