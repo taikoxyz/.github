@@ -5,8 +5,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Before submitting, please check if an existing issue already exists. Thanks for taking the time to improve Taiko!
-  
+        #Thanks for taking the time to improve Taiko!
+        Here you can request additional features you'd like to see. 
             
   - type: checkboxes
     id: prerequisites
@@ -15,6 +15,9 @@ body:
       options:
         - label: Yes, I've searched for similar issues on [GitHub](https://github.com/taikoxyz/) and didn't find any.
           required: true
+      label: Create the request for the correct repository
+      options:
+        - label: I create this request for the correct [repository](https://github.com/orgs/taikoxyz/repositories?type=public) and understand that if not, it may be closed without any comments.
       label: Do not request to integrate with other projects unless you are a representative of them.
       options:
         - label: I confirm, that I do not request he integration of a third party project.
