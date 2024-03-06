@@ -9,12 +9,12 @@
 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -->
 
-## Welcome to Taiko :drum:
+## Welcome to Taiko! :drum:
 
-A decentralized, Ethereum-equivalent ZK-Rollup. 
+Taiko is a **[based rollup](https://ethresear.ch/t/based-rollups-superpowers-from-l1-sequencing/15016)**. Here are a few resources to start exploring:
 
-- **[📚 Read the docs](https://docs.taiko.xyz)**
+- 📚 [Read the docs](https://docs.taiko.xyz)
 
-- **[🛠️ Contribute to Taiko](https://github.com/taikoxyz/taiko-mono/contribute)**
+- 🛠️ [Contribute to Taiko](https://github.com/taikoxyz/taiko-mono/contribute)
 
-- **[🏡 Join the community](https://discord.gg/taikoxyz)**
+- 🏡 [Join the community](https://discord.gg/taikoxyz)
