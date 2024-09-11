@@ -20,11 +20,3 @@ body:
       label: Steps to reproduce
       description: Steps to reproduce the bug, a numbered list could be good.
       value: Steps to reproduce here.
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Spam policy
-      description: By submitting this issue, you understand that SPAM issues will be closed and REPORTED to GitHub, which can close your account.
-      options:
-        - label: I verify that this issue is NOT SPAM and understand SPAM issues will be closed and reported to GitHub, resulting in ACCOUNT TERMINATION.
-          required: true
